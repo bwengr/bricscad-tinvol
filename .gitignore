@@ -1,0 +1,10 @@
+bin/
+obj/
+*.dll
+*.pdb
+*.user
+*.dwg
+*.dwl
+*.dwl2
+*.bak
+Thumbs.db

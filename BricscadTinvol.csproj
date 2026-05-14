@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>BricscadTinvol</AssemblyName>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BrxMgd">
+      <HintPath>C:\Program Files\Bricsys\BricsCAD V26 en_US\BrxMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="TD_Mgd">
+      <HintPath>C:\Program Files\Bricsys\BricsCAD V26 en_US\TD_Mgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="TD_MgdDbConstraints">
+      <HintPath>C:\Program Files\Bricsys\BricsCAD V26 en_US\TD_MgdDbConstraints.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="TD_MgdBrep">
+      <HintPath>C:\Program Files\Bricsys\BricsCAD V26 en_US\TD_MgdBrep.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
